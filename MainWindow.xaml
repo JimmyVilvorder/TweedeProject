@@ -8,7 +8,7 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Button x:Name="btnPlusOne" Content="Button" HorizontalAlignment="Left" Margin="302,118,0,0" VerticalAlignment="Top" Click="Button_Click"/>
-        <Label x:Name="lblCount" Content="Label" HorizontalAlignment="Left" Margin="302,71,0,0" VerticalAlignment="Top" Width="60"/>
+        <Label x:Name="lblCount" Content="" HorizontalAlignment="Left" Margin="302,71,0,0" VerticalAlignment="Top" Width="60"/>
         <TextBlock x:Name="lblHelloWorld" HorizontalAlignment="Left" Margin="454,71,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" FontWeight="Bold"/>
         <Button x:Name="btnHelloWorld" Content="Go" HorizontalAlignment="Left" Margin="454,118,0,0" VerticalAlignment="Top" Click="btnHelloWorld_Click"/>
 
