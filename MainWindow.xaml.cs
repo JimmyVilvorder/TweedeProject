@@ -20,9 +20,16 @@ namespace TweedeProject
     /// </summary>
     public partial class MainWindow : Window
     {
+        int iCount = 0;
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            iCount = iCount + 1;
+            lblCount.Content = iCount;
         }
 
         private void btnHelloWorld_Click(object sender, RoutedEventArgs e)
